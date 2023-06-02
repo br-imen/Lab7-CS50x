@@ -1,0 +1,14 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize
+their audio aura?
+
+ When executing query: SELECT AVG(energu) , AVG(valence), AVG(danceability) from songs;
+I found that highest value was 0.72 in danceability and 0.66 in energy so I think that their audio aura has
+a deep and a rapid dancing rythme.
+
+
+Hypothesize about why the way you’ve calculated this
+aura might not be very representative of the listener.
+What better ways of calculating this aura would you propose?
+
+I think that if we calculate every month the average not the whole year. because our mood changes
+and our needs changes, our goals.. from day to day, so within the year isn't really representive of the listener.
